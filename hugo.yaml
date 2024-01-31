@@ -58,7 +58,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: trua # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     title: Miftah Maulana 
     subtitle: "ini adalah subtitle coba-coba"
     imageUrl: "assets/images/The-Amazing-Febryan-2.jpg"
