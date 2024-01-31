@@ -58,10 +58,10 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: trua # needs to be explicitly set
     title: Miftah Maulana 
     subtitle: "ini adalah subtitle coba-coba"
-    imageUrl: "http://localhost:1313/assets/images/The-Amazing-Febryan.jpg"
+    imageUrl: "assets/images/The-Amazing-Febryan-2.jpg"
     imageWidth: 200
     imageHeight: 200
     imageTitle: "test"
@@ -77,14 +77,14 @@ params:
     Content: Selamat Datang di blog saya!
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
+    - name: linkedin
+      url: "https://linkedin.com/miftah_maulana"
     - name: stackoverflow
       url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/"
     - name : instagram
-      url: "https://instagram.com"
+      url: "https://instagram.com/iib_maulana"
 
   analytics:
     google:
