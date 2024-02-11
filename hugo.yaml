@@ -1,5 +1,5 @@
-baseURL: "https://miftah-maulana.github.io/"
-title: Musafir Linux
+baseURL: "https://miftah-maulana.my.id/"
+title: Miftah Maulana
 paginate: 5
 theme: PaperMod
 
@@ -16,13 +16,12 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Testing membuat blog
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
+  title: Miftah Maulana
+  description: "Hi There"
+  keywords: [Blog, Portfolio, Technology]
   author: Me
-  # author: ["Me", "You"] # multiple authors
-  images: "assets/images/The-Amazing-Febryan.jpg"
-  DateFormat: "January 2, 2006"
+  images: "assets/images/profile.jpg"
+  #DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -53,18 +52,18 @@ params:
 
   label:
     text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    icon: "assets/images/favicon.ico"
+    iconHeight: 25
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: Miftah Maulana 
-    subtitle: "ini adalah subtitle coba-coba"
-    imageUrl: "assets/images/The-Amazing-Febryan-2.jpg"
+    subtitle: "Selamat Datang di blog saya!"
+    imageUrl: "assets/images/profile.webp"
     imageWidth: 200
     imageHeight: 200
-    imageTitle: "test"
+    imageTitle: "me"
 #    buttons:
 #      - name: Posts
 #        url: posts
@@ -73,18 +72,20 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Selamat Datang di blog saya!
+    Title: "Miftah Maulana"
+    Content: "Selamat Datang di blog saya!"
 
   socialIcons:
     - name: linkedin
       url: "https://linkedin.com/in/miftahmaulana"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: telegram
+      url: "https://t.me/miftah_maulana"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/miftah-maulana"
     - name : instagram
       url: "https://instagram.com/iib_maulana"
+    - name : email
+      url: "mailto:maulanawahabmiftah23@gmail.com"
 
   analytics:
     google:
@@ -95,14 +96,14 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: true 
+    hiddenInList: true 
+    hiddenInSingle: true 
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    URL: "https://github.com/miftah-maulana/blog/main/content"
+    Text: "Suggest Changes" 
+    appendFilePath: true 
 
   # for search
   # https://fusejs.io/api/options.html
@@ -113,7 +114,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    limit: 10 
     keys: ["title", "permalink", "summary", "content"]
 
 menu:
