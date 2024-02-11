@@ -59,7 +59,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Miftah Maulana 
-    subtitle: "Selamat Datang di blog saya!"
+    subtitle: "learn a lot a lot forget, a little learn a little forget"
     imageUrl: "assets/images/profile.JPG"
     imageWidth: 200
     imageHeight: 200
@@ -73,7 +73,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Miftah Maulana"
-    Content: "Selamat Datang di blog saya!"
+    Content: "learn a lot a lot forget, a little learn a little forget"
 
   socialIcons:
     - name: linkedin
