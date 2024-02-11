@@ -60,7 +60,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Miftah Maulana 
     subtitle: "Selamat Datang di blog saya!"
-    imageUrl: "assets/images/profile.webp"
+    imageUrl: "assets/images/profile.jpg"
     imageWidth: 200
     imageHeight: 200
     imageTitle: "me"
