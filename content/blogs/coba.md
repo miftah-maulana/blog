@@ -26,5 +26,7 @@ Setelah proses instalasi selesai, jalankan TMUX menggunakan command `tmux` atau 
 
 ![tmux command only](https://miftah-maulana.my.id/assets/images/TMUX/tmux_command_only.png)
 
+![tmux command only part 2](https://miftah-maulana.my.id/assets/images/TMUX/tmux_command_only_part_2.png)
+
 
 Kedua gambar diatas merupakan output apabila memulai sesi TMUX dengan command `tmux` saja. Bisa dilihat pada gambar nama default ketika saya menjalankan command `tmux` nama sesi nya "0".
