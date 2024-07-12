@@ -24,7 +24,7 @@ Sebelumnya apabila TMUX belum di install pada server anda, bisa menggunakan cara
 
 Setelah proses instalasi selesai, jalankan TMUX menggunakan command `tmux` atau `tmux new -s <nama-sesi>` untuk memulai sesi. Bedanya kedua command tesebut adalah apabila menjalankan command `tmux` saja ia akan membuat sesi dengan nama default dari tmux, sedangkan apabila `tmux new -s` itu akan membuat sesi dengan nama sesi sesuai dengan nama sesi yang kita inginkan. 
 
-![tmux command only](assets/images/TMUX/tmux command only.png)
+![tmux command only](https://miftah-maulana.my.id/assets/images/TMUX/tmux command only.png)
 
 
 Kedua gambar diatas merupakan output apabila memulai sesi TMUX dengan command `tmux` saja. Bisa dilihat pada gambar nama default ketika saya menjalankan command `tmux` nama sesi nya "0".
