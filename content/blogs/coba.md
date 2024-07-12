@@ -24,9 +24,22 @@ Sebelumnya apabila TMUX belum di install pada server anda, bisa menggunakan cara
 
 Setelah proses instalasi selesai, jalankan TMUX menggunakan command `tmux` atau `tmux new -s <nama-sesi>` untuk memulai sesi. Bedanya kedua command tesebut adalah apabila menjalankan command `tmux` saja ia akan membuat sesi dengan nama default dari tmux, sedangkan apabila `tmux new -s` itu akan membuat sesi dengan nama sesi sesuai dengan nama sesi yang kita inginkan. 
 
-![tmux command only](https://miftah-maulana.my.id/assets/images/TMUX/tmux_command_only.png)
-
 ![tmux command only part 2](https://miftah-maulana.my.id/assets/images/TMUX/tmux_command_only_part_2.png)
 
+![tmux command only](https://miftah-maulana.my.id/assets/images/TMUX/tmux_command_only.png)
 
 Kedua gambar diatas merupakan output apabila memulai sesi TMUX dengan command `tmux` saja. Bisa dilihat pada gambar nama default ketika saya menjalankan command `tmux` nama sesi nya "0".
+
+![tmux new -s](https://miftah-maulana.my.id/assets/images/TMUX/tmux_new_-s.png)
+
+![tmux new -s part 2](https://miftah-maulana.my.id/assets/images/TMUX/tmux_new_-s_part_2.png)
+
+Kedua gambar diatas merupakan output apabila memulai sesi TMUX dengan command `tmux new -s <nama-sesi>` . Bisa dilihat pada gambar diatas saya membuat sesi TMUX dengan nama "miftah". Lalu bagaimana caranya untuk keluar dari sesi? Untuk keluar dari sesi TMUX bisa menggunakan shortcut dengan menekan kombinasi pada keyboard `Ctrl+b` kemudian `d`. Maka output nya anda akan keluar dari sesi TMUX (bisa dilihat pada gambar dibawah)
+
+![ctrl+b+d](https://miftah-maulana.my.id/assets/images/TMUX/ctrl+b+d.png)
+
+Kemudian apabila ingin masuk kembali ke sesi sebelumnya sudah keluar, bisa menggunakan command `tmux a -t <nama-sesi>`. Apabila lupa dengan nama sesi yang baru saja atau sudah sebelumnya dibuat, untuk melihat sesi apa TMUX siapa saja yang berjalan bisa pada komputer/server kita bisa menggunakan command `tmux ls` (bisa dilihat pada gambar dibawah).
+
+![tmux ls](https://miftah-maulana.my.id/assets/images/TMUX/tmux_ls.png)
+
+Sebenarnya bisa saja kita keluar dengan menggunakan kombinasi `Ctrl+d`, namun apabila kita menjalankan kombinasi keyboard tersebut maka otomatis sesi tmux yang sudah kita buat akan langsung hilang. Ini sebenarnya saya tidak rekomendasikan karna takutnya ketika saya sedang menjalankan command line yang prosesnya panjang dan niatnya saya tinggal untuk mengerjakan pekerjaan lain, malah terhenti karena sesi tmux nya hilang :)
