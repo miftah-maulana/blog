@@ -102,7 +102,9 @@ Shortcut untuk scrolling ke atas dan bawah dalam tmux bisa menggunakan kombinasi
 
 Nah ini merupakan fitur yang jitu dari TMUX menurut saya. Fitur synchronize panes ini adalah fitur yang membuat antara panel 1 dan panel 2 ini dapat mengetik secara bersamaan. Lebih detailnya adalah contoh saya diharuskan menjalankan command line `apt-update` pada server a sampai i, tentunya akan merepotkan jika saya sudah membuat split panel kemudian ssh dari server a sampai server i lalu berpindah panel dari a sampai i untuk menjalankan command line `apt-update` secara satu persatu. Nah dengan synchronize panes semua dapat dilakukan secara berbarengan. Shortcut untuk mengaktifkan fitur synchronize panes yakni dengan kombinasi `Ctrl+b` kemudian `:` lalu ketikan `set synchronize-panes` dan tekan `enter`. Maka dengan otomatis fitur ini akan aktif. Untuk menonaktifkan fitur ini dapat menggunakan cara yang sama seperti saat anda mengaktifkan fitur synchronize panes ini Berikut saya berikan contoh gambar setelah diaktifkan fitur synchronize panes ini.
 
-![synchronize panes](https://miftah-maulana.my.id/assets/images/TMUX/syncrhonize-panes.png)
+![synchronize panes](https://miftah-maulana.my.id/assets/images/TMUX/synchronize-panes.png)
+
+
 
 
 9. Fitur Mouse.
