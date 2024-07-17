@@ -7,6 +7,7 @@ tags: ["Linux","Tools","Server"]
 showToc: true
 ---
 
+![tmux logo](https://miftah-maulana.my.id/assets/images/TMUX/tmux-logo.png)
 Terminal Multiplexer atau yang sejauh ini dikenal sebagai TMUX, berdasarkan pengalaman saya selama bekerja menggunakannya merupakan salah satu tools dalam Linux yang menurut saya sangat membantu 
 bagi yang biasa bekerja menggunakan terminal/ssh ke dalam server yang menggunakan sistem operasi Linux. Salah satu kegunaan TMUX yang paling membantu saya dalam pekerjaan adalah ketika saya diharuskan menjalankan
 sebuah command line dalam Linux misalnya menjalankan instalasi dan update package, atau Scripting yang dimana dalam proses jalannya command line tersebut membutuhkan waktu yang lama atau tidak sebentar saya tidak perlu khawatir proses yang berjalan itu akan terhenti di tengah jalan atau menuju akhir karena koneksi atau session saya yang terputus dari server. Karena TMUX ini akan berjalan membuat sesi dan sesi tersbut tidak akan hilang selama server tempat kita menjalankan TMUX itu tidak mati atau sesi kita di hentikan. Pada konten ini saya akan menjelaskan dengan singkat cara menggunakan TMUX dan beberapa shortcut dalam TMUX yang biasa saya gunakan untuk membantu dalam pekerjaan saya.
