@@ -50,14 +50,16 @@ Kemudian apabila ingin masuk kembali ke sesi sebelumnya, bisa menggunakan _comma
 
 Sebenarnya bisa saja kita keluar dengan menggunakan kombinasi `Ctrl+d`, namun apabila kita menjalankan kombinasi tersebut maka otomatis sesi tmux yang sudah kita buat akan hilang. Ini sebenarnya saya tidak rekomendasikan karna takutnya ketika saya/kita sedang menjalankan _command line_ yang prosesnya panjang dan dapat saya tinggal untuk mengerjakan pekerjaan lain, malah terhenti karena sesi tmux nya hilang :)
 
-1. Membuat beberapa panel.
+Setelah mengetahui cara membuat sesi tmux, kemudian masuk dan keluar dari sesi tmux yang sudah kita buat, berikut beberapa _shortcut_ yang biasa saya gunakan beserta fungsinya :
+
+1. *Membuat beberapa panel*.
 
 ![panel atas bawah](https://miftah-maulana.my.id/assets/images/TMUX/window_atas_bawah.png)
 ![panel kesamping](https://miftah-maulana.my.id/assets/images/TMUX/window_kesamping.png)
 
 _Shortcut_ untuk membuat beberapa panel ini terbagi 2 yaitu untuk membuat _split_ panel baru kesamping dan kebawah. Untuk membuat panel baru kesamping menggunakan kombinasi `Ctrl+b` kemudian `%`, sedangkan untuk membuat panel baru kebawah menggunakan kombinasi `Ctrl+b` kemudian `"`. _Shortcut_ ini biasanya saya gunakan untuk membandingkan isi dari kedua file yang berbeda. Seperti di gambar saya membandingkan isi file `log1` dan `log2`. Kemudian _shortcut_ ini juga bisa digunakan untuk membandingkan file konfigurasi antar server. Misalnya saya ingin membandingkan isi konfig pada `server a` dan `server b`, dengan _shortcut_ ini saya bisa membandingkan kedua isi konfig `server a` dan `server b` hanya dengan membuat panel baru kemudian _ssh_ ke `server a` atau `b`. Hanya saja ada kententuannya yaitu tempat saya menjalankan tmux ini adalah server _jumphost_ atau server yang harus bisa mengakses `server a` dan `server b`.
 
-2. Berpindah panel.
+2. *Berpindah panel*.
 
 ![pindah panel](https://miftah-maulana.my.id/assets/images/TMUX/pindah_window.png)
 
@@ -65,7 +67,7 @@ _Shortcut_ ini ada hubungannya dengan _shortcut_ yang pertama. Untuk berpindah p
 
 ![beberapa split panel](https://miftah-maulana.my.id/assets/images/TMUX/beberapa_split_screen.png)
 
-3. Mengubah posisi panel.
+3. *Mengubah posisi panel*.
 
 Kadang kala ketika saya membuat banyak panel dalam _session_ ini akan terjadi dimana panel berantakan, ada yang lebar ada yang sempit yang mengakibatkan ketika saya sedang menjalankan _command line_ atau membaca informasi dari server menjadi tidak nyaman. _Shortcut_ untuk mengubah posisi panel ini menurut saya berguna untuk merapihkan posisi panel menjadi lebih tertata rapih. Untuk _shortcut_ nya sendiri dapat menggunakan kombinasi `Ctrl+b` kemudian `spasi`. Mungkin untuk lebih jelas nya dapat dilihat pada gambar dibawah ini. 
 
@@ -75,7 +77,7 @@ Kadang kala ketika saya membuat banyak panel dalam _session_ ini akan terjadi di
 
 Oiya untuk _shortcut_ ini komposisi panelnya dapat berubah-ubah dengan terus menekan kombinasi `Ctrl+b` kemudian `spasi` sampai anda menemukan komposisi panel yang dirasa anda inginkan.
 
-4. Zoom in dan zoom out pada panel.
+4. *_Zoom in_ dan _zoom out_ pada panel*.
 
 _Shortcut_ ini menggunakan kombinasi `Ctrl+b` kemudian `z` untuk _zoom in_ kedalam panel, dan kombinasi `Ctrl+b` kemudian `z` lagi untuk _zoom out_ nya. Untuk lebih jelasnya dapat dilihat pada 2 gambar dibawah.
 
@@ -84,14 +86,14 @@ _Shortcut_ ini menggunakan kombinasi `Ctrl+b` kemudian `z` untuk _zoom in_ kedal
 
 Apabila dirasa _shortcut_ ke 3 masih dirasa kurang untuk membuat saya nyaman untuk menjalankan _command line_ atau membaca informasi dari server, maka saya gunakan _shortcut_ ini untuk membuat saya lebih nyaman dalam menjalankan _command line_ atau membaca informasi dari server.
 
-5. Menghapus/_kill_ panel.
+5. *Menghapus/_kill_ panel*.
 
 Apabila panel yang dibuat sudah terlalu banyak dan dirasa sudah tidak dibutuhkan, maka _shortcut_ ini dapat membantu untuk menghapus/_kill_ panel yang sudah tidak digunakan. _Shortcut_ ini menggunakan kombinasi `Ctrl+b` kemudian `x` kemudian akan muncul dialog `yes/no` bisa ketik `y` kemudian tekan `enter`. Untuk contohnya dapat dilihat pada 2 gambar dibawah.
 
 ![hapus panel before](https://miftah-maulana.my.id/assets/images/TMUX/hapus_screen_before.png)
 ![hapus panel after](https://miftah-maulana.my.id/assets/images/TMUX/hapus_screen_after.png)
 
-6. Membuat kolom panel terbaru.
+6. *Membuat kolom panel terbaru*.
 
 Mungkin membingungkan dimana poin 6 ini sebenarnya mirip pada poin 1. Secara fungsional memang sama namun _shortcut_ ini berbeda dimana pada _shortcut_ ini adalah membuat kolom panel terbaru jika panel yang kita gunakan di kolom pertama kali membuat sesi tmux ini sudah tidak cukup lagi. Mungkin lebih jelas saya jabarkan pada gambar dibawah ini.
 
@@ -100,11 +102,11 @@ Mungkin membingungkan dimana poin 6 ini sebenarnya mirip pada poin 1. Secara fun
 
 Nah dari gambar diatas terlihat saya membuat kolom baru karena kolom pertama saat saya membuat sesi tmux ini sudah tidak cukup. Untuk _shortcut_ nya sendiri dapat menggunakan kombinasi `ctrl+b` kemudian `c`. Untuk menghapus kolom terbaru yang sudah dibuat dapat langsung saja menggunakan kombinasi `Ctrl+d`. Pertanyaannya adalah bagaimana jika kita ingin kembali ke kolom sebelumnya apabila sudah membuat kolom panel terbaru? Untuk kembali atau berpindah dari kolom 1 ke kolom 2 begitupun sebaliknya dapat menggunakan kombinasi `Ctrl+b` kemudian `p`, p disini saya artikan sebagai _previous_ atau kombinasi `Ctrl+b` kemudian `n` yang dimana `n` disini saya artikan sebagai _next_.
 
-7. _Scrolling up and down_.
+7. *_Scrolling up and down_*.
 
 _Shortcut_ untuk _scrolling_ ke atas dan bawah dalam tmux bisa menggunakan kombinasi `Ctrl+b` kemudian `PageUp`. Nah untuk _scrolling_ ke atas bisa tekan terus `PageUp` nya, lalu untuk _scroll_ kebawah dengan `PageDown`. Untuk keluar nya bisa menekan key `q` atau saya sebut `quit`.
 
-8. Fitur _Synchronize Panes_.
+8. *Fitur _Synchronize Panes_*.
 
 Nah ini merupakan fitur yang jitu dari TMUX menurut saya. Fitur _synchronize panes_ ini adalah fitur yang membuat antara panel 1 dan panel 2 ini dapat mengetik secara bersamaan. Lebih detailnya adalah contoh saya diharuskan menjalankan _command line_ `apt-update` pada `server a` sampai `i`, tentunya akan merepotkan jika saya sudah membuat _split_ panel kemudian _ssh_ dari `server a` sampai server `i` lalu berpindah panel dari `a` sampai `i` untuk menjalankan _command line_ `apt-update` secara satu persatu. Nah dengan _synchronize panes_ semua dapat dilakukan secara berbarengan. _Shortcut_ untuk mengaktifkan fitur _synchronize panes_ yakni dengan kombinasi `Ctrl+b` kemudian `:` lalu ketikan `set synchronize-panes` dan tekan `enter`. Maka dengan otomatis fitur ini akan aktif. Untuk menonaktifkan fitur ini dapat menggunakan cara yang sama seperti saat anda mengaktifkan fitur _synchronize panes_ ini. Berikut saya berikan contoh gambar setelah diaktifkan fitur _synchronize panes_ ini.
 
@@ -113,7 +115,7 @@ Nah ini merupakan fitur yang jitu dari TMUX menurut saya. Fitur _synchronize pan
 
 
 
-9. Fitur Mouse.
+9. *Fitur Mouse*.
 
 Tidak kalah jitu, fitur mouse ini singkatnya adalah fitur untuk mengaktifkan mode mouse pada tmux yang dimana ketika kita aktifkan fitur ini, kita dapat berpindah dari panel 1 ke panel lainnya dengan hanya klik mouse ke panel yang kita inginkan. Tidak hanya itu, kita juga bisa _scroll_ dan juga _copy paste_ tanpa harus menggunakan _shortcut_ ke 7. Cara mengaktifkan dan menonaktifkan fitur ini ialah dengan kombinasi `Ctrl+b` kemudian `:` lalu ketikan `set mouse` dan tekan `enter`.
 
