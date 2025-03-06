@@ -7,6 +7,8 @@ tags: ["Linux", "Grafana", "Monitoring"]
 showToc: true
 ---
 
+![grafana_logo](https://miftah-maulana.my.id/assets/images/Grafana_issue/grafana_logo.png)
+
 Terdapat issue gagal masuk Grafana dikarenakan administrator yang lupa kata sandi user admin pada service Grafana. Beranjak dari masalah tersebut dilakukan reset password dari sisi server. Berikut cara, kendala, 
 beserta work arround yang saya dan tim lakukan untuk reset password admin Grafana.
 
@@ -72,6 +74,7 @@ $ sudo grafana-cli --homepath /opt/grafana-8.2.3/ --config conf/defaults.ini adm
 ```
 ![end_prosess](https://miftah-maulana.my.id/assets/images/Grafana_issue/end_process_password_success_reset.png)
 
-## Refrensi :
+
+Refrensi :
 - https://grafana.com/docs/grafana/latest/cli/#reset-admin-password
 - https://community.grafana.com/t/admin-password-reset/19455
