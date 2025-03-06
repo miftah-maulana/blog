@@ -20,7 +20,7 @@ params:
   description: "Hi There"
   keywords: [Blog, Portfolio, Technology]
   author: Me
-  images: "assets/images/profile.jpg"
+  images: "assets/images/profile_2.png"
   #DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -60,7 +60,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Miftah Maulana 
     subtitle: "learn a lot a lot forget, a little learn a little forget"
-    imageUrl: "assets/images/profile.JPG"
+    imageUrl: "assets/images/profile_2.png"
     imageWidth: 200
     imageHeight: 200
     imageTitle: "me"
