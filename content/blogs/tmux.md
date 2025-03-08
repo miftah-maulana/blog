@@ -119,6 +119,45 @@ Nah ini merupakan fitur yang jitu dari TMUX menurut saya. Fitur _synchronize pan
 
 Tidak kalah jitu, fitur mouse ini singkatnya adalah fitur untuk mengaktifkan mode mouse pada tmux yang dimana ketika kita aktifkan fitur ini, kita dapat berpindah dari panel 1 ke panel lainnya dengan hanya klik mouse ke panel yang kita inginkan. Tidak hanya itu, kita juga bisa _scroll_ dan juga _copy paste_ tanpa harus menggunakan _shortcut_ ke 7. Cara mengaktifkan dan menonaktifkan fitur ini ialah dengan kombinasi `Ctrl+b` kemudian `:` lalu ketikan `set mouse` dan tekan `enter`.
 
+10. *Rename Panel & Session*.
+
+Seperti namanya, _Rename_ disini berfungsi untuk mengganti nama baik nama sesi ataupun nama panel. Untuk mengubah nama panel bisa menggunakan kombinasi `Ctrl` + `,` (koma) kemudian hapus nama panel sebelumnya dalam dialog box ketikan nama baru untuk panel nya dan `Enter` apabila sudah selesai. Disini saya berikan contoh saya membuat 3 panel dengan nama `default` dari tmux nya.
+
+![Before rename panel](https://miftah-maulana.my.id/assets/images/TMUX/before-rename-panel.png)
+
+Kemudian saya jalankan kombinasi dari `Ctrl+,` lalu saya ganti namanya pada dialog box nya
+
+![Rename panel process](https://miftah-maulana.my.id/assets/images/TMUX/rename-panel-process.png)
+
+Saat sudah selesai menggunakan caranya, bisa dilihat di gambar berikut panel sudah ter-rename semuanya, sehingga memudahkan saya untuk mengkategorikan dalam panel ping berarti saya hanya menjalankan `ping`, kemudian panel dengan nama `utility` saya gunakan sebagai panel untuk melihat utilisasi dari server yang saya sedang `remote` , lalu panel dengan nama `config` saya gunakan sebagai panel untuk melihat atau merubah konfigurasi pada server yang sedang saya `remote`. Kurang lebih penerapan dari fitur ini bisa di gunakan seperti itu.
+
+![After rename panel](https://miftah-maulana.my.id/assets/images/TMUX/after-rename-panel.png)
+
+
+Kemudian untuk _Rename Session_ , caranya adalah dengan kombinasi `Ctrl+:` lalu kemudian ketikan `rename-session -t [nama session saat ini] kemudian [nama session baru]` lalu `Enter`. Disini saya memberikan contoh mengubah nama session saya yaitu `miftah` menjadi `new-miftah`.  Berikut nama sesi sebelum saya rubah 
+
+![Before rename session](https://miftah-maulana.my.id/assets/images/TMUX/before-rename-session.png)
+
+Saya jalankan caranya lalu berikut proses nya saya mengganti nama sesi dari `miftah` menjadi `new-miftah` 
+
+![Rename Session](https://miftah-maulana.my.id/assets/images/TMUX/rename-session.png)
+
+Kemudian apabila sudah selsai berikut hasilnya 
+
+![After rename Session](https://miftah-maulana.my.id/assets/images/TMUX/after-rename-session.png)
+
+11. *Kill Session*.
+
+Untuk kill session tmux bisa menggunakan command `tmux kill-session -t targetSession` yang dimana `targetSession` disini ialah nama tmux yang sudah dibuat. Namun kita juga bisa untuk kill session saat kita sedang berada dalam session tmux tersebut. Caranya adalah dengan cara kombinasi `Ctrl+b` kemudian `:` lalu ketikan `kill-session`. Bisa dilihat dari gambar dibawah
+
+![kill session](https://miftah-maulana.my.id/assets/images/TMUX/kill-session.png)
+nanti setelah session ter-kill, kita akan otomatis keluar seperti kita keluar dari session tmux dengan command `Ctrl+d` yang akan mengeluarkan output berikut :
+
+```log
+[exited]
+```
+
+
 
 Kira-kira sekian beberapa _shortcut_ pada tmux yang biasa saya gunakan untuk membantu saya dalam pekerjaan. Semoga tulisan ini dapat membantu, apabila ada kesalah pemahaman atau kekeliruan dari tulisan saya, _feel free_ untuk dikoreksi dan didiskusikan bersama karena saya pun masih belajar sampai tulisan ini dibuat. Akhir kata terima kasih sudah membaca _and have a nice day_! :D
 
