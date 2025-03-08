@@ -3,7 +3,7 @@ author: "Miftah Maulana Wahab"
 title: "Issue Reset Password Grafana"
 description : "Journal troubleshoot saat ingin reset password grafana"
 date: 2025-02-26T00:16:05+07:00
-tags: ["Linux", "Grafana", "Monitoring"]
+tags: ["Linux", "Grafana", "Monitoring","Journal"]
 showToc: true
 ---
 

@@ -3,7 +3,7 @@ author: "Miftah Maulana Wahab"
 title: "Terminal Multiplexer(TMUX)"
 description : "Pengenalan dan pengoperasian singkat Terminal Multiplexer (TMUX)"
 date: 2024-02-01T00:49:52+07:00
-tags: ["Linux","Tools","Server"]
+tags: ["Linux","Tools","Server","Tutorial"]
 showToc: true
 ---
 
