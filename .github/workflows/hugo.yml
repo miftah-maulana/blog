@@ -42,7 +42,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: true
+          fetch-depth: 0
+
+      - name: Update Submodules
+        run: git submodule update --init --recursive
+        
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
