@@ -145,3 +145,10 @@ markup:
     guessSyntax: true
     lineNos: true
     style: monokai
+
+### konfig dibawah untuk mengaktifkan fitur search.
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON

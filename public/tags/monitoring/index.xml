@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monitoring on Miftah Maulana</title>
+    <link>https://miftah-maulana.my.id/tags/monitoring/</link>
+    <description>Recent content in Monitoring on Miftah Maulana</description>
+    <image>
+      <title>Miftah Maulana</title>
+      <url>https://miftah-maulana.my.id/97</url>
+      <link>https://miftah-maulana.my.id/97</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 26 Feb 2025 00:16:05 +0700</lastBuildDate>
+    <atom:link href="https://miftah-maulana.my.id/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Issue Reset Password Grafana</title>
+      <link>https://miftah-maulana.my.id/blogs/issue_reset_pass/</link>
+      <pubDate>Wed, 26 Feb 2025 00:16:05 +0700</pubDate>
+      <guid>https://miftah-maulana.my.id/blogs/issue_reset_pass/</guid>
+      <description>Journal troubleshoot saat ingin reset password grafana</description>
+    </item>
+  </channel>
+</rss>
