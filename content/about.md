@@ -5,7 +5,7 @@ date: 2024-01-31T16:09:19+07:00
 description: ""
 ---
 
-*Halo!*
+**Halo!**
 
 Perkenalkan, saya Miftah Maulana. Terima kasih telah berkunjung ke blog saya! Saya adalah penulis sekaligus pengelola seluruh konten di blog ini. Saat ini, saya bekerja sebagai _Junior Cloud Ops Engineer_ di sebuah perusahaan yang berlokasi di Jakarta.
 
