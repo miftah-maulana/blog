@@ -74,7 +74,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "https://miftah-maulana.github.io/blog/"
+            --baseURL "https://miftah-maulana.my.id/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
