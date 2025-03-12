@@ -1,38 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linux on Miftah Maulana</title>
-    <link>https://miftah-maulana.my.id/tags/linux/</link>
+    <link>http://localhost:1313/tags/linux/</link>
     <description>Recent content in Linux on Miftah Maulana</description>
     <image>
       <title>Miftah Maulana</title>
-      <url>https://miftah-maulana.my.id/97</url>
-      <link>https://miftah-maulana.my.id/97</link>
+      <url>http://localhost:1313/assets/images/profile_2.png</url>
+      <link>http://localhost:1313/assets/images/profile_2.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 26 Feb 2025 00:16:05 +0700</lastBuildDate>
-    <atom:link href="https://miftah-maulana.my.id/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Issue Reset Password Grafana</title>
-      <link>https://miftah-maulana.my.id/blogs/issue_reset_pass/</link>
+      <link>http://localhost:1313/blogs/issue_reset_pass/</link>
       <pubDate>Wed, 26 Feb 2025 00:16:05 +0700</pubDate>
-      <guid>https://miftah-maulana.my.id/blogs/issue_reset_pass/</guid>
+      <guid>http://localhost:1313/blogs/issue_reset_pass/</guid>
       <description>Journal troubleshoot saat ingin reset password grafana</description>
     </item>
     <item>
       <title>Terminal Multiplexer(TMUX)</title>
-      <link>https://miftah-maulana.my.id/blogs/tmux/</link>
+      <link>http://localhost:1313/blogs/tmux/</link>
       <pubDate>Thu, 01 Feb 2024 00:49:52 +0700</pubDate>
-      <guid>https://miftah-maulana.my.id/blogs/tmux/</guid>
+      <guid>http://localhost:1313/blogs/tmux/</guid>
       <description>Pengenalan dan pengoperasian singkat Terminal Multiplexer (TMUX)</description>
-    </item>
-    <item>
-      <title>Konten Testing</title>
-      <link>https://miftah-maulana.my.id/konten-testg/</link>
-      <pubDate>Wed, 31 Jan 2024 15:54:55 +0700</pubDate>
-      <guid>https://miftah-maulana.my.id/konten-testg/</guid>
-      <description>ini percobaaan</description>
     </item>
   </channel>
 </rss>

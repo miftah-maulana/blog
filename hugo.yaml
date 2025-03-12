@@ -20,7 +20,8 @@ params:
   description: "Hi There"
   keywords: [Blog, Portfolio, Technology]
   author: Me
-  images: "assets/images/profile_2.png"
+  images: 
+    - "assets/images/profile_2.png"
   #DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
