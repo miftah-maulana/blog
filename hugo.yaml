@@ -21,7 +21,7 @@ params:
   keywords: [Blog, Portfolio, Technology]
   author: Me
   images:  
-    - "assets/images/profile_2.png"
+    - "assets/images/profile.jpg"
   #DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -61,7 +61,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Selamat Datang di Blog Saya!
     subtitle: "banyak belajar banyak lupa, sedikit belajar sedikit lupa"
-    imageUrl: "assets/images/profile_2.png"
+    imageUrl: "assets/images/profile.jpg"
     imageWidth: 200
     imageHeight: 200
     imageTitle: "me"
