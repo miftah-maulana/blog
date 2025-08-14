@@ -37,3 +37,7 @@ atau untuk lebih jelas bisa dilihat pada gambar dibawah :
 
 ![contoh brace](https://miftah-maulana.my.id/assets/images/brace-expansion/contoh-brace.png)
 
+
+Refrensi :
+
+https://www.gnu.org/software/bash/manual/html_node/Brace-Expansion.html
