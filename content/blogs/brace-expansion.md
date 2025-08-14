@@ -17,7 +17,7 @@ cp konfigurasi.conf konfigurasi.conf.backup-14-08-2025
 konfigurasi.conf konfigurasi.conf.backup-14-08-2025
 ```
 
-Dengan demikian saya bisa melakukan editing di file   `konfigurasi.conf` dengan leluasa karena file asli/lama nya sudah saya backup dengan nama `konfigurasi.conf.backup-14-08-2025`. Menurut saya, ada sedikit ke tidak praktisan saat dimana ingin melakukan backup namun kita menggunakan absolute path. saya coba jabarkan contoh dibawah :
+Dengan demikian saya bisa melakukan editing di file   `konfigurasi.conf` dengan leluasa karena file asli/lama nya sudah saya backup dengan nama `konfigurasi.conf.backup-14-08-2025`. Menurut saya, ada sedikit ke tidak praktisan saat dimana ingin melakukan backup namun kita menggunakan absolute ataupun relative path. saya coba jabarkan contoh dibawah dengan absolute path:
 
 ```bash
 cp /home/miftah/konfigurasi.conf /home/miftah/konfigurasi.conf.backup-14-08-2025
