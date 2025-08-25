@@ -43,7 +43,7 @@ tentunya mekanisme _Brace Expansion_ ini tidak hanya dapat digunakan pada _comma
 
 nah _Brace Expansion_ juga bisa saya terapkan dalam aktivitas _rename_ file. Contoh case nyata-nya adalah saya mempunyai file `konfigurasi.conf` lama yang saya ingin ganti dengan `konfigurasi.conf` yang terbaru. Seperti biasa, `konfigurasi.conf` yang lama saya akan backup terlebih dahulu sebelum menerapkan file `konfigurasi.conf` yang baru. Jelasnya mungkin bisa lihat yang saya praktikan pada gambar di bawah ini.
 
-![praktik](https://miftah-maulana.my.id/assets/images/brace-expansion/praktik.png)
+![praktik](https://miftah-maulana.my.id/assets/images/brace-expansion/praktek.png)
 
 
 Refrensi :
