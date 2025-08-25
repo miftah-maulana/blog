@@ -37,6 +37,10 @@ atau untuk lebih jelas hasilnya bisa dilihat pada gambar dibawah ini:
 
 ![contoh brace](https://miftah-maulana.my.id/assets/images/brace-expansion/contoh-brace.png)
 
+tentunya mekanisme _Brace Expansion_ ini tidak hanya dapat digunakan pada _command_ `cp` saja. Mekanisme ini bisa juga digunakan dengan _command-command_ lain kok. Salah satu yang berdekatan dengan `cp` atau _copy_  biasanya adalah _command_ _move_ atau yang sering dikenal dengan `mv`. Selain digunakan untuk memindahkan file, `mv` juga bisa digunakan untuk _rename_ file. Nah biasanya kita menjalankan perintah `mv` itu dengan cara `mv` <file-yang-ingin-di-rename> <nama-file-yang-baru> atau mungkin lebih jelas bila dengan gambar di bawah ini yang saya praktikan. 
+
+![mv brace](https://miftah-maulana.my.id/assets/images/brace-expansion/mv-brace.png)
+
 
 Refrensi :
 
