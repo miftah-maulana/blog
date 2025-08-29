@@ -7,7 +7,7 @@ tags: ["Linux","Bash","Tutorial"]
 showToc: true
 ---
 
-Seseorang yang bekerja dengan memegang server yang menggunakan sistem operasi Linux, biasanya dalam sehari-hari menjadi daily activity dalam management file seperti membuat, mengedit, ataupun menghapus file. File apasih yang dimaksud disini? yap, maksud saya disini file apapun. Bisa jadi file biasa yang berisikan data, file log-log, file script, atau bisa juga file konfigurasi. Dari membuat, mengedit, ataupun menghapus file saya akan fokus dalam hal mengedit. Tapi tidak terlalu dalam, yang di-edit ialah nama file nya saja. Dalam case saya, biasanya pengeditan nama file dilakukan pada file konfigurasi. Contoh case nya, saya ingin melakukan editing pada file konfigurasi `konfigurasi.conf`, saya harus membuat backup file nya terlebih dahulu. Dalam case ini biasanya saya melakukan copy file yang ingin saya edit sebelum melakukan editing agar file lama/asli tetap masih bisa digunakan menjadi backup apabila editing yang saya lakukan keliru. _Basic command_ yang biasanya dilakukan yaitu :
+Pada pekerjaan saya yang sudah pasti berhubungan dengan sistem operasi Linux, dalam sehari-hari sudah menjadi _daily activity_ dalam hal _management_ file seperti membuat, mengedit, ataupun menghapus file. File apasih yang dimaksud disini? yap, yang dimaksud disini file apapun yang ada dalam server tersebut. Bisa jadi file biasa yang berisikan data seperti log-log server, file script, atau bisa juga file konfigurasi. Dari membuat, mengedit, ataupun menghapus file, kali ini saya akan fokus dalam hal mengedit. Tapi tidak terlalu dalam, yang diedit ialah nama file-nya saja. Saya ambil dari _real case_ nya, disini saya ingin melakukan _editing_ pada file konfigurasi `konfigurasi.conf`. Sesuai _Standard Of Procedure_(SOP), sebelum melakukan _editing_ saya harus membuat backup file-nya terlebih dahulu. Kenapa? agar apabila saat proses editing terdapat kekeliruan ataupun kesalahan saya dapat melakukan _rollback_ dengan cepat. Saya biasa menggunakan metode _copy_ file dalam proses backup yang dimana _basic command_-nya biasanya :
 
 ```bash
 cp konfigurasi.conf konfigurasi.conf.backup-14-08-2025
@@ -17,7 +17,7 @@ cp konfigurasi.conf konfigurasi.conf.backup-14-08-2025
 konfigurasi.conf konfigurasi.conf.backup-14-08-2025
 ```
 
-Dengan demikian saya bisa melakukan editing di file   `konfigurasi.conf` dengan leluasa karena file asli/lama nya sudah saya backup dengan nama `konfigurasi.conf.backup-14-08-2025`. Menurut saya, ada sedikit kurang praktis/efisien saat dimana ingin melakukan backup namun kita menggunakan _absolute_ ataupun _relative path_. saya coba jabarkan contoh dibawah dengan absolute path:
+Dengan demikian saya bisa leluasa melakukan editing pada file `konfigurasi.conf` karena file asli/lama nya sudah saya _backup_ dengan nama `konfigurasi.conf.backup-14-08-2025`. Namun menurut saya, ada sedikit kurang praktis/efisien saat dimana ingin melakukan _backup_ namun kita menggunakan _absolute_ ataupun _relative path_. saya coba jabarkan contoh dibawah dengan _absolute path_:
 
 ```bash
 cp /home/miftah/konfigurasi.conf /home/miftah/konfigurasi.conf.backup-14-08-2025
@@ -37,15 +37,13 @@ atau untuk lebih jelas hasilnya bisa dilihat pada gambar dibawah ini:
 
 ![contoh brace](https://miftah-maulana.my.id/assets/images/brace-expansion/contoh-brace.png)
 
-tentunya mekanisme _Brace Expansion_ ini tidak hanya dapat digunakan pada _command_ `cp` saja. Mekanisme ini bisa juga digunakan dengan _command-command_ lain kok. Salah satu yang berdekatan dengan `cp` atau _copy_  biasanya adalah _command_ _move_ atau yang sering dikenal dengan `mv`. Selain digunakan untuk memindahkan file, `mv` juga bisa digunakan untuk _rename_ file. Nah biasanya kita menjalankan perintah `mv` itu dengan cara `mv` <file-yang-ingin-di-rename> <nama-file-yang-baru> atau mungkin lebih jelas bila dengan gambar di bawah ini yang saya praktikan. 
+Namun apasih _Brace Expansion_ itu? Nah biar mempersingkat mungkin bisa dibaca terlebih dahulu pada link refrensi ini https://www.gnu.org/software/bash/manual/html_node/Brace-Expansion.html .Tentunya _Brace Expansion_ ini tidak hanya dapat digunakan pada _command_ `cp` saja. Ekspansi ini bisa juga digunakan dengan _command-command_ lain kok. Salah satu yang berdekatan dengan `cp` atau _copy_  biasanya adalah _command_ _move_ atau yang sering dikenal dengan `mv`. Selain untuk memindahkan file, `mv` juga bisa digunakan untuk _rename_ file(mungkin pembaca sudah lebih tahu ya disini). Nah biasanya kita menjalankan perintah `mv` itu dengan cara `mv` <file-yang-ingin-di-rename> <nama-file-yang-baru> atau mungkin lebih jelas bila dengan gambar di bawah ini yang saya praktikan. 
 
 ![mv brace](https://miftah-maulana.my.id/assets/images/brace-expansion/mv-brace.png)
 
-nah _Brace Expansion_ juga bisa saya terapkan dalam aktivitas _rename_ file. Contoh case nyata-nya adalah saya mempunyai file `konfigurasi.conf` lama yang saya ingin ganti dengan `konfigurasi.conf` yang terbaru. Seperti biasa, `konfigurasi.conf` yang lama saya akan backup terlebih dahulu sebelum menerapkan file `konfigurasi.conf` yang baru. Jelasnya mungkin bisa lihat yang saya praktikan pada gambar di bawah ini.
+nah _Brace Expansion_ juga bisa saya terapkan dalam aktivitas _rename_ file. Contoh _real case_ nyata-nya lagi adalah kembali nih saya mempunyai file `konfigurasi.conf` lama yang saya ingin ganti dengan `konfigurasi.conf` yang terbaru. Sesuai SOP, `konfigurasi.conf` yang lama harus saya backup terlebih dahulu sebelum menerapkan file `konfigurasi.conf` yang baru. Jelasnya mungkin bisa lihat yang saya praktikan pada gambar di bawah ini.
 
 ![praktik](https://miftah-maulana.my.id/assets/images/brace-expansion/praktek.png)
 
 
-Refrensi :
 
-https://www.gnu.org/software/bash/manual/html_node/Brace-Expansion.html
