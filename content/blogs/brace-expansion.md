@@ -37,7 +37,7 @@ atau untuk lebih jelas hasilnya bisa dilihat pada gambar dibawah ini:
 
 ![contoh brace](https://miftah-maulana.my.id/assets/images/brace-expansion/contoh-brace.png)
 
-Namun apasih _Brace Expansion_ itu? Nah biar mempersingkat mungkin bisa dibaca terlebih dahulu pada link refrensi ini https://www.gnu.org/software/bash/manual/html_node/Brace-Expansion.html .Tentunya _Brace Expansion_ ini tidak hanya dapat digunakan pada _command_ `cp` saja. Ekspansi ini bisa juga digunakan dengan _command-command_ lain kok. Salah satu yang berdekatan dengan `cp` atau _copy_  biasanya adalah _command_ _move_ atau yang sering dikenal dengan `mv`. Selain untuk memindahkan file, `mv` juga bisa digunakan untuk _rename_ file(mungkin pembaca sudah lebih tahu ya disini). Nah biasanya kita menjalankan perintah `mv` itu dengan cara `mv` <file-yang-ingin-di-rename> <nama-file-yang-baru> atau mungkin lebih jelas bila dengan gambar di bawah ini yang saya praktikan. 
+Namun apasih _Brace Expansion_ itu? Nah biar mempersingkat mungkin bisa dibaca terlebih dahulu pada link refrensi berikut : https://www.gnu.org/software/bash/manual/html_node/Brace-Expansion.html .Tentunya _Brace Expansion_ ini tidak hanya dapat digunakan pada _command_ `cp` saja. Ekspansi ini bisa juga digunakan dengan _command-command_ lain kok. Salah satu yang berdekatan dengan `cp` atau _copy_  biasanya adalah _command_ _move_ atau yang sering dikenal dengan `mv`. Selain untuk memindahkan file, `mv` juga bisa digunakan untuk _rename_ file(mungkin pembaca sudah lebih tahu ya disini). Nah biasanya kita menjalankan perintah `mv` itu dengan cara `mv` <file-yang-ingin-di-rename> <nama-file-yang-baru> atau mungkin lebih jelas bila dengan gambar di bawah ini yang saya praktikan. 
 
 ![mv brace](https://miftah-maulana.my.id/assets/images/brace-expansion/mv-brace.png)
 
@@ -45,5 +45,6 @@ nah _Brace Expansion_ juga bisa saya terapkan dalam aktivitas _rename_ file. Con
 
 ![praktik](https://miftah-maulana.my.id/assets/images/brace-expansion/praktek.png)
 
+Singkatnya, pada gambar diatas file dengan nama `konfigurasi.conf` adalah file konfigurasi _existing_ yang akan saya _update_ isinya. Sedangkan file dengan nama `konfigurasi-terbaru.conf` adalah file konfigurasi yang isinya sama, namun sudah saya lakukan _update_ dari file `konfigurasi.conf`/_existing_. Nah saya meng-implementasikan _Brace Expansion_ dalam _case_ ini guna mempersingkat dan menghindari kesalahan apabila saya masih menggunakan _basic command_. 
 
 
