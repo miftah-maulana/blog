@@ -45,6 +45,14 @@ nah _Brace Expansion_ juga bisa saya terapkan dalam aktivitas _rename_ file. Con
 
 ![praktik](https://miftah-maulana.my.id/assets/images/brace-expansion/praktek.png)
 
-Singkatnya, pada gambar diatas file dengan nama `konfigurasi.conf` adalah file konfigurasi _existing_ yang akan saya _update_ isinya. Sedangkan file dengan nama `konfigurasi-terbaru.conf` adalah file konfigurasi yang isinya sama, namun sudah saya lakukan _update_ dari file `konfigurasi.conf`/_existing_. Nah saya meng-implementasikan _Brace Expansion_ dalam _case_ ini guna mempersingkat dan menghindari kesalahan apabila saya masih menggunakan _basic command_. 
+Singkatnya, pada gambar diatas file dengan nama `konfigurasi.conf` adalah file konfigurasi _existing_ yang akan saya _update_ isinya. Sedangkan file dengan nama `konfigurasi-terbaru.conf` adalah file konfigurasi yang isinya sama, namun sudah saya lakukan _update_ dari file `konfigurasi.conf`/_existing_. Nah saya meng-implementasikan _Brace Expansion_ dalam _case_ ini guna mempersingkat dan menghindari kesalahan apabila saya masih menggunakan _basic command_. Saya sedikit jelaskan secara singkat _command_ yang saya praktikan dibawah ini.
+
+```bash
+$ mv brace/konfigurasi.conf{,.bak} #bash akan mengekspansi 2 string sama dengan artinya menjalankan command mv brace/konfigurasi.conf brace/konfigurasi.conf.bak 
+
+$ mv brace/konfigurasi{-terbaru.conf,.conf} #mengekspansi command sama dengan artinya dengan menjalankan command mv brace/konfigurasi-terbaru.conf brace/konfigurasi.conf
+```
+
+Tentunya menurut saya, dengan menggunakan mekanisme _Brace Expansion_ ini membuat lebih singkat dan mungkin bisa meminimalisir _typo_ saat menuliskan _command_ dengan _absolute_ atau _relative_ path.
 
 
